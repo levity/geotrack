@@ -1,0 +1,38 @@
+html, body {
+  margin: 0;
+  padding: 0; }
+
+html {
+  height: 100%; }
+
+body {
+  font-family: helvetica;
+  height: 100%;
+  background: #eee; }
+  body .content {
+    padding: 10px; }
+  body #header {
+    position: absolute;
+    z-index: 99999;
+    height: 25px;
+    background: #eee; }
+    body #header .title {
+      font-weight: bold; }
+    body #header div, body #header a {
+      display: inline-block;
+      padding: 5px;
+      margin-right: 20px; }
+  body #map {
+    height: 70%;
+    width: 100%;
+    background: #fff; }
+  body #info {
+    height: 28%;
+    overflow: scroll; }
+  body #track {
+    padding: 30px 5px 0; }
+
+.notice {
+  padding: 10px;
+  background: #ff9;
+  font-weight: bold; }

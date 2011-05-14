@@ -1,0 +1,10 @@
+- content_for :head do
+  :javascript
+    $(function() { Geotrack.monitor.init(); })
+
+#header
+  .title View locations
+  = link_to "Track your location", new_event_path
+#map
+#info
+  %ul.notice

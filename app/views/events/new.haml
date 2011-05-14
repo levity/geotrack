@@ -1,0 +1,18 @@
+- content_for :head do
+  :javascript
+    $(function() { 
+      Geotrack.tracker.init(); 
+      $('#name').val(navigator.vendor);
+    })
+
+#header
+  .title Track your location
+  = link_to "View locations", root_path
+
+#track
+  your name: 
+  %input#name_entry(type="text")
+  %input#name(type="hidden")
+  %br
+  %button.toggle start updating
+  %ul.notice

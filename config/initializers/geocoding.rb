@@ -1,0 +1,1 @@
+Geocode.geocoder = Graticule.service(:google).new ''
